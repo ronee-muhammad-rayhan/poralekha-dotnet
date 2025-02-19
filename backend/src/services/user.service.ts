@@ -10,6 +10,7 @@ export class UserService {
       { id: 4, name: 'Jane SmithHA', email: 'jane@example.com' },
       { id: 5, name: 'RoneeMRayhan', email: 'roneemrayhan@rayhanworld.com' },
       { id: 6, name: 'Shafikul Islam', email: 'shafik@rayhanworld.com' },
+      { id: 7, name: 'Shafikul Islam 2', email: 'shafik2@rayhanworld.com' },
     ];
   }
 }
