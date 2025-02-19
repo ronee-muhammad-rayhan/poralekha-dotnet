@@ -85,6 +85,7 @@ jobs:
           username: ${{ secrets.EC2_USER }}
           key: ${{ secrets.PRIVATE_KEY }}
           script: |
+            aws ecr get-login-password --region ${{ secrets.AWS_REGION }} | docker login --username AWS --password-stdin ${{ secrets.ECR_REPO_FRONTEND }}
             cd /home/ubuntu/poralekha
             docker-compose down
             docker pull ${{ secrets.ECR_REPO_FRONTEND }}:latest
