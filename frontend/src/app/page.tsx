@@ -21,6 +21,7 @@ export default function Home() {
             .
           </li>
           <li className="text-red-500 text-lg font-bold">Save and see your changes instantly...</li>
+          <li className="text-red-500 text-lg font-bold">Save and see your changes instantly...</li>
         </ol>
 
         <div className="flex gap-4 items-center flex-col sm:flex-row">

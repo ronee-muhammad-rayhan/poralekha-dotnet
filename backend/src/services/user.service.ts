@@ -11,6 +11,7 @@ export class UserService {
       { id: 5, name: 'RoneeMRayhan', email: 'roneemrayhan@rayhanworld.com' },
       { id: 6, name: 'Shafikul Islam', email: 'shafik@rayhanworld.com' },
       { id: 7, name: 'Shafikul Islam 2', email: 'shafik2@rayhanworld.com' },
+      { id: 8, name: 'Shafikul Islam 3', email: 'shafik3@rayhanworld.com' },
     ];
   }
 }
